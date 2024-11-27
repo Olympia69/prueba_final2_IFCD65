@@ -28,6 +28,7 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
+  <button>Enviar</button>
 </template>
 
 <script>
@@ -54,5 +55,13 @@ li {
 }
 a {
   color: #42b983;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    color: red;
+    font: italic;
+    background-color: aqua;
 }
 </style>
